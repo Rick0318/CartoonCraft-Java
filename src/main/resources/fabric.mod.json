@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "cartooncraft",
+  "version": "0.1.0",
+  "name": "CartoonCraft",
+  "description": "Java Edition content for CartoonCraft.",
+  "authors": ["CartoonCraft Team"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.cartooncraft.CartoonCraft"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.21",
+    "java": ">=21"
+  }
+}
